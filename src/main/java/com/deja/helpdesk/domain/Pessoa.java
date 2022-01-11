@@ -18,7 +18,7 @@ import javax.persistence.Id;
 import com.deja.helpdesk.domain.enums.Perfil;
 import com.fasterxml.jackson.annotation.JsonFormat;
 
-@Entity(name = "TB_PESSOA")
+@Entity(name = "PESSOA")
 public abstract class Pessoa implements Serializable {
 	private static final long serialVersionUID = 1L;
 	
